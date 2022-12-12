@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Source Code Pro', monospace;
+    color: #EAEAEA;
+    font-size: 16px;
+}
+/*Nav Bar*/
+nav{
+    background-color: #3C4048;
+    width: 100%;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    display: inline;
+    padding: 24px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    border-bottom: 1px solid #00ABB3;
+    color: #00ABB3;
+    transition: .3s;
+}
+/*Header*/
+#container{
+    background-color: #00ABB3;
+    border-radius: 0px 0px 100% 100%;
+    width: 100%;
+    height: 140px;
+}
+#name{
+    text-align: center;
+    letter-spacing: 15px;
+    font-size: 72px;
+    color: #EAEAEA;
+}
+#sub-information{
+    text-align: center;
+    font-size: 24px;
+    color: #EAEAEA;
+}
+/*Body*/
+body{
+    background-color: #3C4048;
+}
+/*Img*/
+section{
+    margin: 30px;
+    text-align: center;
+}
+section img{
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+}
+section p{
+    word-wrap: break-word;
+    margin-top: 30px;
+    padding-left: 550px;
+    padding-right: 550px;
+}
+/*About*/
+#about p, #about a, #about p a{
+    word-wrap: break-word;
+    text-align: left;
+    color: #EAEAEA;
+    font-size: 24px;
+    text-decoration: none;
+}
+/*Projects*/
+#Projects{
+    text-align: left;
+    font-size: 24px;
+}
+.Projects{
+    color: #00ABB3;
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: none;
+}
+.Projects:hover{
+    border-bottom: 1px solid #00ABB3;
+}
+/*Footer*/
+footer{
+    background-color: #00ABB3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 64px;
+}
+footer ul li{
+    list-style: none;
+    display: inline;
+    padding: 24px;
+}
+footer ul li a{
+    text-decoration: none;
+    font-weight: bold;
+}
+footer ul li a:hover{
+    color: #3C4048;
+    transition: .3s;
+}
+/*Photo*/
+section.Photo img{
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+}
+/*Contact*/
+.contact{
+    word-wrap: break-word;
+    text-align: left;
+    color: #EAEAEA;
+    font-size: 24px;
+    text-decoration: none;
+}
+#submit{
+    color: #EAEAEA;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    background-color: #00ABB3;
+    padding: 12px 12px;
+    border-radius: 50px;
+    transition: .4s;
+}
+#submit:hover{
+    background-color: #00AB90;
+    cursor: pointer;
+}
+input[type=text], input[type=email], input[type=number]{
+    background-color: #3C4048;
+    border: none;
+    outline: none;
+    color: greenyellow;
+}
+input[type=text]::placeholder, input[type=email]::placeholder, input[type=number]::placeholder{
+    color: #EAEAEA;
+}
